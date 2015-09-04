@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.scinobooks.aliv.scino_books.Main2Activity">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/sortOrderName"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="Сортировать по названию">
+        </item>
+
+        <item
+            android:id="@+id/sortOrderAuthor"
+            android:orderInCategory="100"
+            android:showAsAction="never"
+            android:title="Сортировать по автору">
+        </item>
+
+    </group>
+
+</menu>
